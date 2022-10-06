@@ -1,0 +1,29 @@
+-------------inicializa o npm e cria o json-------------
+npm init 
+
+------------- instala alguma pacote para utilizar (usar pasta do google drive dá erro) -------------
+npm i "" ou npm install ""
+
+------------- é tipo um import -------------
+node é para usar javaScript só que para mexer no servidor
+const dependencia = requere('nome_dependecia'); 
+
+-------------criando o servidor-------------
+const app = express();
+app.listen(5000, () => {
+    console.log('rodando na porta 5000');
+}); 
+
+
+---------RODAR NODEMON server.js-------------
+npm run dev
+
+---------RODAR NODE server.js-------------
+npm run start
+
+---------EXPORTAR ALGO COMO MODULO -------------
+module.exports = <algo>
+
+npm i sequelize
+npm i sequelize-cli
+

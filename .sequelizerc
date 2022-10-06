@@ -1,0 +1,7 @@
+const path = require('path');
+//Sequelize cria esses bglhos em lugares aleatórios, estamos pegando o que nós criamos
+module.exports = {
+    config: path.resolve(__dirname, 'src', 'config', 'database.js'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations'), 
+    'seeders-path': path.resolve(__dirname, 'src', 'database', 'seeders'),
+} 
